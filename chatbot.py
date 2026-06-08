@@ -18,3 +18,4 @@ def zuri_bot():
         print("Zuri: I did not understand your request. Ask me about bundles, mpesa, airtime, internet, refunds or agents.")
 
 zuri_bot()
+# This is a simple chatbot that responds to user input about safaricom services. It uses basic string matching to determine the user's request and provides appropriate responses. You can expand its functionality by adding more keywords and responses as needed.
