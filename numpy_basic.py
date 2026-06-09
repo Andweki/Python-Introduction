@@ -41,4 +41,5 @@ students=np.array(
 print(students)
 print(students[0]) #first row
 print(students[1][2]) #second row third column
-print(students[:,0]) #first column   
+print(students[:,0]) #first column 
+print(students[1,:]) #second row
