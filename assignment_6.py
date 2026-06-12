@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+#Mean, median & Standard deviation
 marks= np.array([45, 67, 89, 32, 76, 50,])
 print(np.mean(marks))
 print(np.median(marks))
