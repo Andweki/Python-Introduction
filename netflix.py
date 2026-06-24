@@ -1,4 +1,4 @@
-#Hybrid learning
+#Hybrid learning.
 import numpy as np
 
 #Categories of content available on netflix
