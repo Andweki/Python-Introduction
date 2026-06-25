@@ -4,7 +4,7 @@
 axis0 = 0 #row
 axis1 = 1 #column
 
-import numpy as np
+import numpy as np 
 
 student = np.array([
     [85, 90, 92],

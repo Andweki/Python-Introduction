@@ -1,3 +1,5 @@
+#Reinforcement learning
+
 import random #it allows us to generate a list of random choices
 #A list of actions that AI can choose from in the game
 
