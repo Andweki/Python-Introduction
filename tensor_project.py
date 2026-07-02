@@ -1,3 +1,4 @@
+#Regression model using Tensorflow - output is a single value/number
 import tensorflow as tf
 
 import numpy as np
