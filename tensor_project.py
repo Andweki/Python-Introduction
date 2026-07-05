@@ -31,7 +31,7 @@ student_model.compile(
 )
 
 #Training the model
-student_model.fit(study_hours,exam_scores,epochs=200)
+student_model.fit(study_hours,exam_scores,epochs=20)
 
 #Make a prediction
 prediction = student_model.predict(np.array([[7.0]]))

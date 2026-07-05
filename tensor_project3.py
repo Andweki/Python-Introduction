@@ -35,7 +35,7 @@ model = tf.keras.Sequential([
     #Output layer with 4 classes (one for each department)
     tf.keras.layers.Dense(4, activation='softmax') #Output layer with 4 classes
 ])
-
+ 
 #Compile the model
 #Predict numbers regression, use mean_squared_error loss function
 #Predict 3 or more classes, use sparse_categorical_crossentropy loss function
