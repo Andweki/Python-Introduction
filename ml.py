@@ -17,22 +17,22 @@ import numpy as np
 #Age spending behavior
 
 data=np.array([
-    [20,200]
-    [22,250]
-    [25,300]
-    [40,2000]
-    [45,2500]
-    [50,3000]
+    [20,200],
+    [22,250],
+    [25,300],
+    [40,2000],
+    [45,2500],
+    [50,3000],
 ])
 
 #Study hours vs marks
 data2=np.array([
-    [1,30]
-    [2,40]
-    [3,50]
-    [5,80]
-    [6,90]
-    [7,95]
+    [1,30],
+    [2,40],
+    [3,50],
+    [5,80],
+    [6,90],
+    [7,95],
 ])
 
 #Reinforcment learning
@@ -40,8 +40,8 @@ data2=np.array([
 #No dataset labels, just actions and rewards
 
 actions=["jump","run","duck"]
-rewards=(
+rewards={
     "jump":10,
     "run":5,
     "duck":8
-)
+}
