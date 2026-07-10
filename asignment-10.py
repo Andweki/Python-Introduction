@@ -10,14 +10,14 @@ x = np.array([
     [10, 50, 66],
     [11, 58, 69],
     [12, 63, 70],
-    [13, 45, 59],
+    [13, 65, 79],
     [14, 73, 72],
     [15, 65, 75],
     [16, 68, 78],
     [17, 70, 80],
     [8, 50, 59],
     [11, 43, 62],
-    [14, 63, 65],
+    [14, 73, 75],
     [16, 80, 90]
 
 ])
@@ -27,21 +27,21 @@ y = np.array([
     0,
     0,
     1,
-    0,
     1,
     1,
     1,
     1,
+    1,
     0,
-    0,
-    0,
+    1,
+    1,
     1,
 
 ])
 
 #Split the data set
 x_train, x_test, y_train, y_test = train_test_split(
-    x,y,random_state=42
+    x,y,test_size=0.2,random_state=42
 )
 
 #Build the neural network
@@ -69,8 +69,14 @@ print("Accuracy:", accuracy)
 new_student = np.array([
     [15,68,70]
 ])
-#Compare the labels
+#Compare the predicted labels
 
 
 prediction = model.predict(new_student)
+# pred_val = float(prediction)
 print("Prediction", prediction)
+# print(pred_val)
+# if float(prediction) >= 0.5:
+#     print("passed")
+# else:
+#     print("failed")
